@@ -1,5 +1,5 @@
 # Marketplace App
-An app that lets users register there business to the AMPP platform via the CH API
+An app that lets users register there business to the XXX platform via the CH API
 
 ## Intructions to get app working locally
 
