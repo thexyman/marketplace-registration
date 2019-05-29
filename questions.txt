@@ -1,0 +1,45 @@
+1.  What would you add to your solution if you had more time?
+* Authentication & authorization to verify users and stop them illegally navigating site
+* Add loading icon in case of longer than expected server calls 
+* Reorganise files to only include 1 package.json and node_modules
+* Perhaps display the submitted form data on the finish page and include edit functionality 
+* The current API takes a user query to display 1 company, ideally it would have been nice to have a drop down of alternate companies for user to select incase of name clashes 
+* Make information retrieved from companies house uneditable to improve authenticity 
+* Add user identification layer to prove they are who they say they are
+* create a sub-document on server to make location based querying easier  
+* More robust form to allow user to provide more contextual info about company e.g. bio 
+
+2.  What React features do you like/dislike?
+* Like:
+    * React does a lot to make code reusable (HOCs, emphasis on single responsibility rule for components)
+    * The fact that I can write latest JS code without having to worry about compatibility (since compilation is taken care of by babel)
+    * Hot reloading 
+* Dislike:
+    * Because react is quite a light weight library and relies on third arty modules for additional functionality e.g. Redux there can be a lot of boiler plate set up
+
+3.  How would you test this solution for performance in production?
+* Perhaps setup a benchmark for API requests to CH API
+
+4.  How did you choose those libraries?
+* Bootstrap 4 because it has a number of excellent layout options especially with the inclusion of flex box
+* Express because it abstracts a lot of the setup for setting up Node as a server and makes it easier to ‘plug’ in middleware
+* Used mongoose because it provides a lot of functionality atop of MongoDB, for example using mongoose models to add properties and validation to documents 
+* Nodemon because it makes server side  development easier 
+
+5.  Why did you lay out the components?
+* ​I had 3 top level components index.js, App.js and API.js to handle base setup of app and making api calls to server and CH
+* Then 3 separate components that handled the actual user flow and storing state in the app
+
+6.  Please describe yourself using JSON.
+
+Ali = {
+  "firstName": "Aliasgar",
+  "lastName": "Makda",
+  "mantra": "Never stop learning",
+  "passions": ["programming", "yoga", "Manchester United"],
+  "interests": ["reading", "blockchain", "movies", "gym"],
+  "favoriteQuote": "Education is the great engine of personal development. It is through education that the daughter of a peasant can become a doctor, that the son of a mine worker can become the head of the mine, that a child of farm workers can become the president of a great nation. It is what we make out of what we have, not what we are given, that separates one person from another. Nelson Mandela",
+  "TopThreeBucketList": ["Learn new language", "Everest basecamp trek", "visit Bodh Gaya"],
+  "favorite movie": "Jurassic Park",
+  "favorite TV show": "The X-Files"
+}
