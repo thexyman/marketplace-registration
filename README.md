@@ -1,4 +1,4 @@
-# ampp-ch-api
+# Marketplace App
 An app that lets users register there business to the AMPP platform via the CH API
 
 ## Intructions to get app working locally
