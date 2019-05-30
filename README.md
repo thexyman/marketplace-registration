@@ -1,7 +1,7 @@
 # Marketplace App
 An app that lets users register there business to the XXX platform via the CH API
 
-## Intructions to get app working locally
+## Instructions to get app working locally
 
 * Visit https://developer.companieshouse.gov.uk/api/docs/index/gettingStarted/apikey_authorisation.html to register the app and get API key
 * When registering app with CH, include http://localwebapp.com:3000 as an authorised javascript domain
